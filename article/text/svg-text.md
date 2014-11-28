@@ -22,10 +22,14 @@
 ```
 在例子1中 `x="0" y="15"` 是文字定位坐标
 可能你会有疑问，为什么文字没有距离上边是15呢？这里首先你需要了解个概念`baseline` 熟悉css的同学会眼熟 会用到 `vertical-align: baseline;` 但是什么是 `baseline`呢？
+
 ![baseline](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2012/10/baseline.jpg)
+
 这不是我们的重点了解移步到《[CSS Baseline: The Good, The Bad And The Ugly](http://www.smashingmagazine.com/2012/12/17/css-baseline-the-good-the-bad-and-the-ugly/)》 译文：《[CSS基线之道](http://www.qianduan.net/css-baseline-road.html)》
 在svg中xy 的坐标就是 基于`baseline` 如图：
+
 ![baseline](http://kydome.qiniudn.com/baseline.png)
+
 所以就看不到预想的文字没有距上边15px
 
 看似简单，其实不然——“大有可为”！～
